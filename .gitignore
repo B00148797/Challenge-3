@@ -69,3 +69,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Challenge 3/Library/Artifacts/*
+Challenge 3/Temp/*
+Challenge 3/Logs/*
