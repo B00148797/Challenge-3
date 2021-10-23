@@ -38,6 +38,17 @@ public class PlayerControllerX : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * floatForce, ForceMode.Impulse);
         }
+
+        if(this.transform.position.y > 15)
+        {
+            transform.position = new Vector3(-3, 15, 0);
+            playerRb.velocity = Vector3.zero;
+        }
+        if (this.transform.position.y < 1)
+        {
+            transform.position = new Vector3(-3, 1, 0);
+            playerRb.velocity = Vector3.zero;
+        }
     }
 
     private void OnCollisionEnter(Collision other)
